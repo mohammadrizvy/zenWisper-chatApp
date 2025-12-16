@@ -1,6 +1,6 @@
 import { useParams, useLocation } from "react-router-dom";
 import useUsers from "../hooks/useUsers";
-import ChatFeed from "../pages/ChatFeed/ChatFeed/ChatFeed";
+import ChatFeed from '../pages/ChatFeed/ChatFeed/ChatFeed';
 
 interface LocationState {
   partnerUsername?: string;
